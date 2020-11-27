@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.telephony">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".phonecallJun"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".phonecallTom"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".phonecallRuru"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Tom"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Jun"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Ruru"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".phonecallM"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".phonecallP"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Mama"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Papa"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

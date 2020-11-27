@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TelephonyGroup11</string>
+    <string name="contactPapa">Papa \n09389988349</string>
+    <string name="contactMama">Mama \n09300973156</string>
+    <string name="contactTom">Uncle Tom \n09481947141</string>
+    <string name="contactJun">Tito Jun \n09393076264</string>
+    <string name="contactRuru">Ruru \n09499423099</string>
+</resources>

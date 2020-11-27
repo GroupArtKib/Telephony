@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="1"
+    android:background="#79DBE8"
+    android:padding="20dp"
+    tools:context=".Tom">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Uncle Tom (09481947141)"/>
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Message"
+        android:layout_marginTop="10dp"
+        android:gravity="top"/>
+    <Button
+        android:background="#FFFFFF"
+        android:onClick="btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="SEND"/>
+
+
+</LinearLayout>
